@@ -1,0 +1,19 @@
+<!--{% extends "base.html" %}-->
+<!--{% load static %}-->
+<main class="container my-4">
+<h3 class="my-4 border-bottom pb-1">Login</h3>
+  <div class ="rom">
+      <table class="table table-bordered">
+          <form method="post">
+              {% csrf_token }
+
+          {{form.as_table}}
+          <tr>
+              <td colspan="2">
+                  <input type="submit" value="login" class="btn btn-primary">
+              </td>
+          </tr>
+              </form>
+      </table>
+  </div>
+</main>

@@ -1,0 +1,208 @@
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home{% endblock  %}
+{% block body %}
+<div class="container-fluid px-0 my-1">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'images_use/flower_5.jpg' %}"  alt="..." height="400" width="1700">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images_use/flower_8.jpg' %}" class="d-block w-100" alt="..." height=400" >
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images_use/flower_6.jpg' %}" class="d-block w-100" alt="..." height="400">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+
+<div class="container my-3">
+  <h1 class="my-1 text-center">Select flowers from our range</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+            <img src="{% static 'images_use/flowerwine.jpg' %}" class="d-block w-100" alt="..." height="400">
+            <div class="card-body">
+              <p class="card-text">Rose petal wine captures the delicate floral aroma of fresh rose petals in a wine that’s light and fresh, perfect for summertime sipping.  Rose mead, on the other hand, is deep and complex.  It’ll bring you back to warm summer days even as winter rages outside.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/hibiscus.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text">Hibiscus helps to accelerate cell turnover, giving a more even complexion, is optimal when the summer tan fades, leaving unpleasant dark marks on the skin. Hibiscus is rich in antioxidants called anthocyanosides.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/showpiece.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text"> Flower bouquets are often given for special occasions such as birthdays, anniversaries or funerals. They are also used extensively in weddings as well as Olympics Medal Ceremonies. Bouquets arranged in vases or planters for home decor can be arranged in either traditional or modern styles.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/rose.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text"> Container rose gardening is a stylish way to brighten up outdoor spaces. Use a potted rose to create a focal point in a garden or add bold color and fragrance to decks, patios, and entranceways.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/sunflower.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text">The common sunflower is valuable from an economic as well as from an ornamental point of view. The leaves are used as fodder, the flowers yield a yellow dye, and the seeds contain oil and are used for food.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/basket.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text">Flower baskets are commonly used as attractive accents in the home. They also make popular gifts during the holidays and on other special occasions</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/mix.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text">Each flower has its own unique meaning. While some flowers represent love, others represent friendship, purity, caring, affection, and other emotions. However, when these various flowers are artfully combined in a stunning Fresh mixed bouquet, they become a fantastic gift for giving on all happy occasions.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+            <img src="{% static 'images_use/bouque.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text"> A light rosy tone is often associated with femininity, so, naturally, the pink rose meaning is that of grace and sweetness. Other interpretations include gentleness, appreciation, joy, thankfulness, and elegance. The variety of meanings make giving pink roses appropriate for so many occasions.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+<!--            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
+                        <img src="{% static 'images_use/marigold.jpg' %}" class="d-block w-100" alt="..." height="400">
+
+            <div class="card-body">
+              <p class="card-text">The main medicinal applications of marigold are skin conditions of all kinds, including contusions, bruises and varicose veins. Minor skin injuries and inflammation can also be successfully treated. Marigold ointment promotes wound healing for eczema and sunburns.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>-->
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Quick View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
